@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.tvince0.scrollable_tooltip.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "AlterPosition",
+    "TrackScrollWheel"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
